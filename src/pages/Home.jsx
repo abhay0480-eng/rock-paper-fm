@@ -68,7 +68,7 @@ const Home = () => {
       <div onClick={()=>playGame("scissors")} className='absolute hover:shadow-2xl hover:shadow-white cursor-pointer -top-[60px] md:-top-[85px] border-[20px] border-[#EB9F0E]  right-[160px] md:right-[109px] bg-white rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px] flex justify-center items-center'>
         <img src='/images/icon-scissors.svg' alt='' className=''/>
       </div>
-      <div onClick={()=>playGame("rock")} className='absolute hover:shadow-white hover:shadow-2xl cursor-pointer -bottom-[85px] border-[20px] border-[#9D1634] left-1/2 transform -translate-x-1/2 bg-white rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px] flex justify-center items-center'>
+      <div onClick={()=>playGame("rock")} className='absolute hover:shadow-white hover:shadow-2xl cursor-pointer -bottom-[60px] md:-bottom-[85px] border-[20px] border-[#9D1634] left-1/2 transform -translate-x-1/2 bg-white rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px] flex justify-center items-center'>
         <img src='/images/icon-rock.svg' alt='' className=''/>
       </div>
 
