@@ -19,7 +19,7 @@ const Footer = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   return (
-    <div className=' mt-auto text-white w-44 ml-auto'>
+    <div className=' mt-[20px] text-white w-44 ml-auto '>
         <div onClick={handleOpen} className='border-[1px] cursor-pointer rounded-lg hover:bg-white hover:text-[#3B4262]  border-[#fff] px-2 py-3 flex justify-center items-center'>
             <p>RULES</p>
         </div>
